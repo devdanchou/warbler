@@ -1,9 +1,6 @@
 # warbler
 
-Twitter clone ![image](https://github.com/devdanchou/warbler/assets/130320722/4b107faa-e97f-465a-8347-768ef1ac00e1)
-- users can post/like messages and follow other users.
-
-**Note: Please be patient, render is slow to load when page is inactive.**
+Warbler's a social media application inspired by X, formerly Twitter, where users can follow other users and post/like messages.
 
 Tech Stack:
 - Python
@@ -11,7 +8,10 @@ Tech Stack:
 - Flask
 - Flask-WTForms
 - bCrypt
-
+  
 Deployment site: https://warbler-cxh12.onrender.com/
+**Note: Please be patient, render is slow to load when page is inactive.**
+
+
 
 
