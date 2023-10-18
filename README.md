@@ -1,28 +1,17 @@
 # warbler
-Twitter clone - users can post/like messages and follow other users.
 
-1. Navigate to `app/`. Create virtual environment and activate.
+Twitter clone ![image](https://github.com/devdanchou/warbler/assets/130320722/4b107faa-e97f-465a-8347-768ef1ac00e1)
+- users can post/like messages and follow other users.
 
-    ```
-    cd app/  
-    python3 -m venv venv  
-    source venv/bin/activate
-    ```
+**Note: Please be patient, render is slow to load when page is inactive.**
 
-2. Install dependencies.
+Tech Stack:
+- Python
+- SQLAlchemy
+- Flask
+- Flask-WTForms
+- bCrypt
 
-    ```
-    pip3 install -r requirements.txt
-    ```
+Deployment site: https://warbler-cxh12.onrender.com/
 
-3. Install warbler app as a python package. Then, remove the `warbler.egg-info` file.
 
-    ```
-    pip3 install -e .
-    rm -rf warbler.egg-info/
-    ```
-
-4. Run app
-    ```
-    python3 -m flask run -p 5000
-    ```
